@@ -1,15 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import { History } from '../components/History'
 import { Introduction } from '../components/Introduction'
-import styles from '../styles/Home.module.scss'
+import { Menu } from '../components/Menu'
 
 export default function Home() {
   return (
     <>
-      <div className={styles.main}>
+      <div>
         <Introduction />
       </div>
       <History />
+      <Menu />
     </>
   )
 }

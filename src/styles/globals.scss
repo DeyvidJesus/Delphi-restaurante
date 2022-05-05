@@ -3,6 +3,7 @@
     --white-50: #FBF7F7;
     --black: #000000;
     --red: #850909;
+    --yellow: #FCBF27;
 }
 
 * {
@@ -11,8 +12,21 @@
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   text-decoration: none;
-  color: var(--white);
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+   a {
+     color: var(--white);
+   }
+}
+
+body {
+  background: url("/img/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {

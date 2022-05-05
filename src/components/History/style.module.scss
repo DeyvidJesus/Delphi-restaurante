@@ -3,7 +3,9 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
+    margin-bottom: 8rem;
+    background: var(--white);
 
     img {
         width: 330px;
@@ -18,11 +20,6 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-
-        h2,
-        p {
-            color: #000;
-        }
 
         h2 {
             font-size: 42px;

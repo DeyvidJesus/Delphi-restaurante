@@ -3,7 +3,7 @@ import styles from './style.module.scss'
 
 export function History () {
     return (
-        <section className={styles.history}>
+        <section id='History' className={styles.history}>
             <img src="/img/ambience.jpg" alt="Ambiente"/>
             <div>
                 <h2>Nossa história</h2>
