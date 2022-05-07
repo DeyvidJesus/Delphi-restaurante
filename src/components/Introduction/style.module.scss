@@ -4,23 +4,6 @@
     height: 100vh;
     color: var(--white);
   
-    header {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-  
-      nav {
-        width: 550px;
-        display: flex;
-        justify-content: space-around;
-        padding: 1.5rem 1rem;
-  
-        a:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  
     h1 {
       display: flex;
       align-items: center;
